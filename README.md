@@ -1,145 +1,162 @@
-# 📊 Quantium Retail Sales Analysis
+# 📊 Quantium Retail Analysis
 
-An end-to-end Exploratory Data Analysis (EDA) project that analyzes retail transaction and customer data provided by Quantium. The objective is to understand customer purchasing behaviour, identify high-value customer segments, evaluate brand and product performance, and generate actionable business insights.
+An end-to-end data analytics project completed as part of the **Quantium Data Analytics Virtual Experience Program (Forage)**.
 
----
-
-## 📌 Project Objectives
-
-- Clean and prepare retail transaction data.
-- Perform feature engineering to extract brands and pack sizes.
-- Merge transaction and customer datasets.
-- Analyze customer demographics and purchasing behaviour.
-- Identify high-performing brands and products.
-- Evaluate customer segments based on spending patterns.
-- Analyze monthly sales trends.
-- Provide data-driven business recommendations.
+This project analyzes retail transaction and customer data to understand purchasing behaviour, identify high-value customer segments, evaluate product performance, and assess the effectiveness of in-store trials using data-driven analysis.
 
 ---
 
-## 📂 Dataset
+# 📌 Project Objectives
 
-This project uses two datasets:
-
-- **Transaction Dataset** – Retail transactions containing product, quantity, sales, and transaction details.
-- **Customer Dataset** – Customer demographic information including lifestage and premium customer segment.
-
-The datasets were merged using the **LYLTY_CARD_NBR** customer identifier.
-
----
-
-## 🛠️ Tools & Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+* Clean and prepare retail transaction data.
+* Engineer product features (brand and pack size).
+* Merge customer and transaction datasets.
+* Analyze customer purchasing behaviour.
+* Identify high-performing brands and pack sizes.
+* Evaluate customer segments based on sales and purchasing patterns.
+* Analyze monthly sales trends.
+* Assess trial store performance against control stores.
+* Deliver business recommendations through a professional presentation.
 
 ---
 
-## 📈 Analysis Performed
+# 📂 Dataset
 
-### Data Preparation
+The project uses two datasets provided by Quantium:
 
-- Data cleaning
-- Missing value checks
-- Duplicate detection
-- Outlier analysis
-- Date conversion
-- Feature engineering
-  - Brand extraction
-  - Pack size extraction
+* **Transaction Dataset** – Retail transaction records including products, quantity sold, sales value, and transaction details.
+* **Customer Dataset** – Customer demographic information including lifestage and premium customer classification.
 
-### Exploratory Data Analysis
-
-- Total Sales Analysis
-- Customer Distribution Analysis
-- Sales by Customer Lifestage
-- Sales by Premium Customer Segment
-- Customer Segment Analysis
-- Average Spend per Transaction
-- Average Quantity Purchased
-- Brand Performance Analysis
-- Brand Sales Contribution
-- Pack Size Performance
-- Monthly Sales Trend Analysis
+Both datasets were merged using the **LYLTY_CARD_NBR** customer identifier.
 
 ---
 
-## 📊 Key Findings
+# 🛠️ Tools & Technologies
 
-- Total sales exceeded **$1.93 million**.
-- More than **264,000 retail transactions** were analyzed.
-- **Kettle** was the highest-performing brand by total sales.
-- **150g–175g** pack sizes generated the highest revenue.
-- **Budget Older Families** generated the highest sales among customer segments.
-- **Older Singles/Couples** and **Retirees** were also major contributors to overall revenue.
-- Monthly sales remained relatively stable throughout the year, with the highest sales recorded in **December 2018**.
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Jupyter Notebook
 
 ---
 
-## 💡 Business Recommendations
+# 📈 Project Tasks
 
-- Prioritize inventory for top-performing brands such as **Kettle**, **Doritos**, **Smiths**, and **Pringles**.
-- Maintain strong stock availability for **150g** and **175g** pack sizes.
-- Target promotions toward high-value customer segments, particularly **Budget Older Families**.
-- Continue monitoring seasonal sales patterns to optimize inventory planning.
+## Task 1 – Customer Analytics
+
+* Data Cleaning
+* Feature Engineering
+* Customer Segmentation
+* Sales Analysis
+* Brand Performance
+* Pack Size Analysis
+* Customer Purchasing Behaviour
+* Business Recommendations
+
+## Task 2 – Trial Store Analysis
+
+* Monthly Store Performance
+* Control Store Selection
+* Trial vs Control Store Comparison
+* Trial Performance Evaluation
+
+## Task 3 – Business Presentation
+
+A business presentation was prepared for the Category Manager summarizing key insights and strategic recommendations.
 
 ---
 
-## 📁 Repository Structure
+# 📊 Key Findings
 
-```
-quantium-retail-sales-analysis/
+* Total Sales Revenue: **$1.82 million**
+* Total Transactions: **248,156**
+* Total Customers: **71,517**
+* Average Transaction Value: **$7.33**
+
+### Customer Insights
+
+* Older Singles/Couples generated the highest total sales.
+* Budget Older Families were the highest-performing customer segment.
+* Mainstream Young Singles/Couples paid the highest average price per unit.
+
+### Product Insights
+
+* Kettle was the highest-performing brand.
+* Doritos, Smiths, and Pringles were also strong contributors.
+* 175g and 150g pack sizes generated the highest sales.
+
+### Trial Store Analysis
+
+* Trial stores were compared with matched control stores using monthly sales performance.
+* Sales trends indicated differences during the trial period.
+* Statistical validation is recommended before a wider rollout.
+
+---
+
+# 💡 Business Recommendations
+
+* Prioritise marketing toward high-value customer segments.
+* Maintain strong inventory for Kettle, Doritos, Smiths, and Pringles.
+* Ensure high availability of 175g and 150g pack sizes.
+* Target premium products toward Mainstream Young Singles/Couples.
+* Consider expanding successful trial strategies after further validation.
+
+---
+
+# 📁 Repository Structure
+
+```text
+quantium-retail-analysis/
 │
 ├── Quantium_Retail_Analysis.ipynb
+├── Quantium_Retail_Analysis.pdf
+├── Presentationforage.pptx
 ├── README.md
-└── images/                  # Project visualizations (optional)
+└── images/
 ```
 
 ---
 
-## 🚀 How to Run
+# 🚀 How to Run
 
-1. Clone the repository.
+Clone the repository:
 
 ```bash
-git clone https://github.com/Aktanwar/quantium-retail-sales-analysis.git
+git clone https://github.com/Aktanwar/quantium-retail-analysis.git
 ```
 
-2. Install the required libraries.
+Install dependencies:
 
 ```bash
-pip install pandas numpy matplotlib seaborn
+pip install pandas numpy matplotlib
 ```
 
-3. Open the notebook using Jupyter Notebook or JupyterLab.
-
-4. Run all cells from top to bottom.
+Open the notebook in Jupyter Notebook or JupyterLab and run all cells.
 
 ---
 
-## 🎯 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Customer Segmentation
-- Feature Engineering
-- Business Insight Generation
-- Python Programming
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Customer Segmentation
+* Retail Analytics
+* Business Insight Generation
+* Data Visualization
+* Python Programming
 
 ---
 
-## 👤 Author
+# 👤 Author
 
 **Ak Tanwar**
 
-Data Analyst | Python | SQL | Excel | Power BI | Scikit-learn | AI/ML
+Data Analyst | Python | SQL | Excel | Power BI | Machine Learning
 
 GitHub: https://github.com/Aktanwar
 
 ---
+
 ⭐ If you found this project useful, consider giving it a star.
